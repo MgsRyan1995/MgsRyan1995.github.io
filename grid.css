@@ -138,7 +138,7 @@
 }
 
 .image1 {
-  width: 500px;
+  width: 31.25rem;
   height: auto;
   border-radius: 16px;
   margin-bottom: 20px;
@@ -207,6 +207,10 @@
   .push-center {
     margin-left: 10rem;
   }
+
+  .image1 {
+    width: 150px;
+  }
 }
 
 @media only screen and (max-width: 375px) {
@@ -227,16 +231,16 @@
   .our-approach-cards {
     margin-right: 6rem;
   }
+
+  .image1 {
+    width: 250px;
+  }
 }
 
 @media only screen and (max-width: 480px) {
   /* Adjust styles for even smaller screens */
   .top-bar {
     font-size: 14px;
-  }
-
-  .imagememe {
-    max-width: 80%;
   }
 
   .top-bar a {
@@ -251,6 +255,10 @@
     margin-left: 4rem;
   }
 
+  .image1 {
+    width: 350px;
+  }
+
   /* Add more adjustments as needed */
 }
 
@@ -258,9 +266,6 @@
   /* Adjust styles for smaller screens */
   .top-bar {
     font-size: 16px;
-  }
-  .imagememe {
-    max-width: 80%;
   }
 
   .card-container-position {
@@ -273,6 +278,3 @@
 
   /* Add more adjustments as needed */
 }
-
-/* CENTER our approach cards */
-/* linked in logo SOMEWHERE */
