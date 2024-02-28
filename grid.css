@@ -11,18 +11,6 @@
   border-color: #ff0;
 }
 
-.roboto-regular {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.adlam-display-regular {
-  font-family: "ADLaM Display", system-ui;
-  font-weight: 400;
-  font-style: normal;
-}
-
 .top-bar {
   position: sticky;
   top: 0;
@@ -237,6 +225,18 @@
   }
 }
 
+@media only screen and (max-width: 412px) {
+  .our-approach-cards {
+    margin-right: 50px !important;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .our-approach-cards {
+    margin-left: 85px !important;
+  }
+}
+
 @media only screen and (max-width: 480px) {
   /* Adjust styles for even smaller screens */
   .top-bar {
@@ -255,7 +255,7 @@
     margin-left: 4rem;
   }
 
-.image1 {
+  .image1 {
     width: 300px;
   }
 
@@ -275,6 +275,5 @@
   .card-style {
     margin-left: 5rem;
   }
-
-  /* Add more adjustments as needed */
 }
+
